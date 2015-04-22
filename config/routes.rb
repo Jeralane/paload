@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  resources :users
+
+  get 'load_request/index'
+
+  get 'load_request/show'
+
+  get 'load_request/create'
+
+  get 'load_request/update'
+
+  get 'load_request/delete'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

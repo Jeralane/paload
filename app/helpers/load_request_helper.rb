@@ -1,0 +1,2 @@
+module LoadRequestHelper
+end

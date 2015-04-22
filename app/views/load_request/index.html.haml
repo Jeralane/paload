@@ -1,0 +1,21 @@
+%h1 Listing Requests
+
+%table
+  %thead
+    %tr
+      %th Subscriber
+      %th Mobile Number
+      %th Denomination
+      %th Created
+      %th Status
+
+  %tbody
+    - @load_requests.each do |load_request|
+      %tr
+        %td= load_request.mobile_contact.full_name
+        %td= load_request.mobile_contact.number
+        %td= load_request.denomination.name
+        %td= load_request.requested_at
+        %td= load_request.status
+
+%br
