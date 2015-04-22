@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  mobile_number_id: 
+  mobile_contact_id: 
   denomination_id: 
   status: MyString
 
 two:
-  mobile_number_id: 
+  mobile_contact_id: 
   denomination_id: 
   status: MyString

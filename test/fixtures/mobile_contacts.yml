@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  network_id: 
-  number: MyString
-  subscriber_id: 
+  network_id: 1
+  number: 09289885515
+  subscriber_id: 1
 
 two:
   network_id: 
   number: MyString
-  subscriber_id: 
+  subscriber_id: 1
